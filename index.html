@@ -10,27 +10,61 @@
     <body>
         <div id="bloc-page">
             <header>
-                <img src="images/Reservia.svg">
-                <a href="#">S'inscrire</a>
-                <ul>
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
-                </ul>
+                <a href="index.html"><img src="images/Reservia.svg" alt="logo" class="logo"></a>
+                <a href="#" class="inscription">S'inscrire</a>
+                <div id="menu">
+                    <a href="#hebergement">Hébergements</a>
+                    <a href="#activite">Activités</a>
+                </div>
             </header>
 
             <div id="recherche">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-                <a href="#"><i class="fas fa-map-marker-alt"></i></a>
-                <input type="text" name="search" id="search">
-                <i class="fas fa-search"></i>
+                <div class="search">
+                    <a href="#" title="Votre position">
+                        <i class="fas fa-map-marker-alt fa-lg"></i>
+                    </a>
+                    <input type="search" name="search" id="search" placeholder="Marseille, France"/>
+                    <a href="#" class="search-logo" title="Rechercher">
+                        <span style="color: white;">
+                            <i class="fas fa-search fa-lg"></i>
+                        </span>
+                    </a>
+                </div>
                 <h3>Filtres</h3>
-                <ul>
-                    <li><a href="#"><i class="fas fa-money-bill-wave"></i>Economique</a></li>
-                    <li><a href="#"><i class="fas fa-child"></i>Famililal</a></li>
-                    <li><a href="#"><i class="fas fa-heart"></i>Romantique</a></li>
-                    <li><a href="#"><i class="fas fa-dog"></i>Animaux autorisés</a></li>
-                </ul>
+                <div id="filtres">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="fas fa-money-bill-wave"></i>
+                                </span>Economique
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="fas fa-child"></i>
+                                </span>Famililal
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="fas fa-heart"></i>
+                                </span>Romantique
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="fas fa-dog"></i>
+                                </span>Animaux autorisés
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
 
