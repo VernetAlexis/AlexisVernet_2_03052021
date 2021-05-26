@@ -22,15 +22,17 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
                 <div class="search">
-                    <a href="#" title="Votre position">
-                        <i class="fas fa-map-marker-alt fa-lg"></i>
-                    </a>
-                    <input type="search" name="search" id="search" placeholder="Marseille, France"/>
-                    <a href="#" class="search-logo" title="Rechercher">
-                        <span style="color: white;">
-                            <i class="fas fa-search fa-lg"></i>
-                        </span>
-                    </a>
+                    <form method="post" action="traitement.php">
+                        <a href="#" title="Votre position">
+                            <i class="fas fa-map-marker-alt fa-lg"></i>
+                        </a>
+                        <input type="search" name="search" id="search" placeholder="Marseille, France"/>
+                        <button class="search-logo" type="submit">
+                            <span style="color: white;">
+                                <i class="fas fa-search fa-lg"></i>
+                            </span>
+                        </button>
+                    </form>
                 </div>
                 <h3>Filtres</h3>
                 <div id="filtres">
@@ -61,7 +63,10 @@
                         </li>
                     </ul>
                 </div>
-                <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+                <p>
+                    <i class="fas fa-info" style="color: #0065fc; width: 20px; height: 20px; border: rgb(217, 217, 217) solid 2px; padding: 5px 5px 5px 5px; border-radius: 18px; text-align: center; margin-right: 20px; float: left;"></i>
+                    Plus de 500 logements sont disponibles dans cette ville
+                </p>
             </div>
 
             <div id="content">
