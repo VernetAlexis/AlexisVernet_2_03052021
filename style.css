@@ -11,7 +11,6 @@ html
 body
 {
     font-family: Raleway;
-    background-color: #f2f2f2;
 }
 
 #bloc-page
@@ -56,7 +55,7 @@ header a:hover
     width: 50%;
     text-align: center;
     padding-bottom: 10px;
-    border-bottom: 4px solid rgb(217, 217, 217);
+    border-bottom: 4px solid #f2f2f2;
 }
 
 #menu a:hover
@@ -67,6 +66,7 @@ header a:hover
 #recherche
 {
     padding-left: 20px;
+    margin-bottom: 40px;
 }
 
 #recherche a
@@ -90,7 +90,7 @@ form
     align-items: center;
     height: 40px;
     border-radius: 15px;
-    border: 2px solid rgb(217, 217, 217);
+    border: 2px solid #f2f2f2;
 }
 
 .search input
@@ -105,7 +105,7 @@ form
 
 .search a
 {
-    background-color: rgb(217, 217, 217);
+    background-color: #f2f2f2;
     height: 42px;
     width: 40px;
     border-radius: 15px 0 0 15px;
@@ -180,4 +180,162 @@ form
 #filtres span
 {
     padding: 0 20px 0 10px;
+}
+
+.info i
+{
+    color: #0065fc;
+    width: 20px;
+    height: 20px;
+    border: rgb(217, 217, 217) solid 2px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 18px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+}
+
+#content a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#populaires
+{
+    background-color: #f2f2f2;
+    padding: 30px 20px 50px 20px;
+    margin-bottom: 60px;
+}
+
+#populaires h2
+{
+    margin-bottom: 30px;
+    font-size: 1.9em;
+}
+
+#populaires article
+{
+    background-color: white;
+    width: 95%;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px rgb(200, 200, 200);
+    position: relative;
+    margin: auto;
+}
+
+#populaires img
+{
+    height: 186px;
+    width: 40%;
+    float: left;
+    margin: 7px 20px 0 7px;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+
+#populaires h3
+{
+    padding-top: 30px;
+    font-size: 1.3em;
+}
+
+#populaires span
+{
+    position: absolute;
+    bottom: 30px;
+}
+
+#hebergement article
+{
+    width: 95%;
+    margin: auto;
+    height: 280px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px rgb(200, 200, 200);
+}
+
+#hebergement img
+{
+    width: 97%;
+    height: 55%;
+    object-fit: cover;
+    margin: 7px 0 0 7px;
+    border-radius: 20px 20px 0 0;
+}
+
+#hebergement h3, #hebergement p, #hebergement span
+{
+    margin-left: 20px;
+}
+
+#hebergement
+{
+    margin-bottom: 60px;
+}
+
+#activite article
+{
+    width: 95%;
+    margin: auto;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px rgb(200, 200, 200);
+}
+
+#activite img
+{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+#activite h3
+{
+    margin-left: 20px;
+    font-size: 1.3em;
+}
+
+#activite a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#activite
+{
+    margin-bottom: 60px;
+}
+
+#activite h2
+{
+    margin-bottom: 40px;
+}
+
+footer
+{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer li
+{
+    list-style: none;
+}
+
+footer h3
+{
+    margin-left: 40px;
 }
