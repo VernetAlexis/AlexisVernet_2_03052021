@@ -256,14 +256,14 @@ form
     margin-bottom: 20px;
     border-radius: 25px;
     box-shadow: 5px 5px 20px rgb(200, 200, 200);
+    padding: 7px 7px 0 7px;
 }
 
 #hebergement img
 {
-    width: 97%;
+    width: 100%;
     height: 55%;
     object-fit: cover;
-    margin: 7px 0 0 7px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -327,15 +327,167 @@ footer
 footer a
 {
     text-decoration: none;
-    color: black;
+    color: black;    
 }
 
 footer li
 {
     list-style: none;
+    margin-bottom: 5px;
 }
 
 footer h3
 {
     margin-left: 40px;
+}
+
+@media screen and (min-width: 768px)
+{
+    #bloc-page
+    {
+        width: 768px;
+    }
+
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .inscription
+    {
+        order: 3;
+        margin-top: 24px;
+    }
+
+    #menu
+    {
+        flex: 1;
+        margin-top: 0px;
+    }
+
+    #menu a
+    {
+        border-bottom: none;
+        padding-top: 20px;
+        border-top: 4px solid white;
+    }
+
+    #menu a:hover
+    {
+        border-top: 4px solid #0065fc;
+        border-bottom: none;
+    }
+
+    footer
+    {
+        display: flex;
+        justify-content: space-around;
+        padding-right: 30px;
+    }
+
+    .search
+    {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    #bloc-page
+    {
+        width: 100%;
+    }
+
+    #filtres
+    {
+        margin-top: 30px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .info
+    {
+        display: flex;
+        align-items: baseline;
+    }
+
+    #content
+    {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #content #populaires
+    {
+        flex: 1;
+    }
+
+    #content #hebergement
+    {
+        flex: 2.5;
+    }
+
+    #hebergement
+    {        
+        background-color: #f2f2f2;
+        padding: 30px 0 30px 30px;
+        margin-right: 40px;
+        border-radius: 20px;
+    }
+
+    #cards
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cards a
+    {
+        width: 30%;
+        margin-right: 30px;
+    }
+
+    #populaires
+    {
+        border-radius: 20px;
+    }
+
+    #row
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #column
+    {
+        flex: 25%;
+        max-width: 25%;
+    }
+
+    #column .acti_1
+    {
+        height: 100%;
+    }
+
+    #column .acti_1 img
+    {
+        height: 85%;
+    }
+
+    #column .acti_2
+    {
+        height: 100%;
+    }
+
+    #column .acti_2 img
+    {
+        height: 85%;
+    }
+
+    header, #recherche, #content, #activite
+    {
+        padding: 0 50px;
+    }
 }
