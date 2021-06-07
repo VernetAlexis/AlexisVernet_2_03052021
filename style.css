@@ -13,12 +13,6 @@ body
     font-family: Raleway;
 }
 
-#bloc-page
-{
-    width: 100%;
-    margin: auto;
-}
-
 .logo
 {
     margin-left: 20px;
@@ -129,7 +123,7 @@ form
     margin-right: -2px;
 }
 
-.search-logo p
+.search-logo strong
 {
     display: none;
 }
@@ -414,28 +408,28 @@ footer h3
         flex-wrap: wrap;
     }
 
-    #column
+    #column_1, #column_2, #column_3, #column_4
     {
         flex: 47%;
         margin-right: 3%;
     }
 
-    #column:nth-child(1)
+    #column_1
     {
         order: 1;
     }
 
-    #column:nth-child(2)
+    #column_2
     {
         order: 3;
     }
 
-    #column:nth-child(3)
+    #column_3
     {
         order: 2;
     }
 
-    #column:nth-child(4)
+    #column_4
     {
         order: 4;
     }
@@ -477,12 +471,12 @@ footer h3
         width: 100px;
     }
 
-    .search-logo span
+    .search-logo i
     {
         display: none;
     }
 
-    .search-logo p
+    .search-logo strong
     {
         display: block;
         color: white;
@@ -543,71 +537,71 @@ footer h3
         height: 500px;
     }
 
-    #column
+    #column_1, #column_2, #column_3, #column_4
     {
         flex: 23%;
         max-width: 25%;
         margin-right: 2%;
     }
 
-    #column .acti_1
+    #column_1 .acti_1
     {
         height: 500px;
     }
 
-    #column .acti_1 img
+    #column_1 .acti_1 img
     {
         height: 85%;
     }
 
-    #column .acti_2
+    #column_2 .acti_2
     {
         height: 260px;
         margin-bottom: 50px;
     }
 
-    #column .acti_3
+    #column_2 .acti_3
     {
         height: 190px;
     }
 
-    #column .acti_4
+    #column_3 .acti_4
     {
         height: 500px;
     }
 
-    #column .acti_4 img
+    #column_3 .acti_4 img
     {
         height: 85%;
     }
 
-    #column .acti_5
+    #column_4 .acti_5
     {
         height: 225px;
         margin-bottom: 50px;
     }
 
-    #column .acti_6
+    #column_4 .acti_6
     {
         height: 225px;
     }
 
-    #column:nth-child(1)
+    #column_1
     {
         order: 1;
     }
 
-    #column:nth-child(2)
+    #column_2
     {
         order: 2;
     }
 
-    #column:nth-child(3)
+    #column_3
     {
         order: 3;
     }
 
-    #column:nth-child(4)
+    #column_4
     {
         order: 4;
     }
