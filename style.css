@@ -340,9 +340,10 @@ footer li
     margin-bottom: 5px;
 }
 
-footer h3
+footer h2
 {
     margin-left: 40px;
+    font-size: 1.2em;
 }
 
 @media screen and (min-width: 768px)
