@@ -122,6 +122,11 @@ form
     display: none;
 }
 
+#filtres h2
+{
+    font-size: 1.2em;
+}
+
 #filtres ul
 {
     display: flex;
@@ -506,7 +511,7 @@ footer h2
         align-items: baseline;
     }
 
-    #filtres h3
+    #filtres h2
     {
         margin-right: 20px;
     }
@@ -535,12 +540,6 @@ footer h2
         border-radius: 20px;
     }
 
-    #cards
-    {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     #cards a
     {
         width: 30%;
@@ -556,8 +555,6 @@ footer h2
 
     #row
     {
-        display: flex;
-        flex-wrap: wrap;
         height: 500px;
     }
 
